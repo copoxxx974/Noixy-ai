@@ -2,11 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>NOKSHI AI uses the microphone when you tap the voice button.</string>
-    <key>NSSpeechRecognitionUsageDescription</key>
-    <string>NOKSHI AI converts your spoken Bengali into text when you tap the voice button.</string>
+    <key>CFBundleDisplayName</key>
+    <string>Nokshi AI</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.NokshiAI</string>
+    <key>CFBundleName</key>
+    <string>NokshiAI</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
     <key>UILaunchScreen</key>
     <dict/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
 </dict>
 </plist>
